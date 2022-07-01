@@ -25,6 +25,11 @@ nav {
 }
 .logo img {
   height: 45px;
+  transition: all ease 2s;
+}
+.logo img:hover {
+  transition: all ease 1s;
+  transform: scale(1.5);
 }
 .menu {
   list-style: none;
@@ -83,23 +88,25 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #fff !important;
   background-color: #1db096;
   border-radius: 20px;
   box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.4);
+  transition: all ease 0.8s;
 }
 .main-text p {
   color: grey;
 }
 .resume:hover {
   background-color: #23cdaf;
-  transition: all ease 0.2s;
-  font-weight: bold;
+  transition: all ease 0.8s;
+  /* font-weight: bold; */
+  transform: scale(1.1);
 }
 .menu li a:hover {
   background-color: #23cdaf;
   color: white;
+  transform: scale(0.8);
   box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.1);
-  transition: all ease 0.4s;
-  font-weight: bold;
+  transition: all ease 0.8s;
 }
